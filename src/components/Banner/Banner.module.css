@@ -26,7 +26,7 @@
 
 /* New text container with background */
 .textContainer {
-    background-color: #28501C; /* Greenish background with transparency */
+    background-color: #adadad; /* Greenish background with transparency */
     padding: 20px;
     border-radius: 10px;
     max-width: 80%; /* Limit the width to ensure it doesn't stretch across the entire screen */
@@ -35,7 +35,7 @@
 
 .text {
     font-size: 67px;
-    color: #fff;
+    color: #080505;
     font-weight: 400;
 }
 
@@ -43,14 +43,14 @@
     max-width: 272px; /* Use max-width for better responsiveness */
     height: 64px;
     font-size: 14px;
-    background-color: rgba(88, 146, 70, 0.8) !important;
+    background-color: rgba(95, 48, 9, 0.8) !important;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s; /* Smooth transition */
 }
 
 .btn:hover {
-    background-color: #000000 !important;
+    background-color: #135f33 !important;
 }
 
 @media screen and (max-width: 1266px) {
@@ -119,7 +119,7 @@
     z-index: 3; /* Ensure arrows are above the images */
     cursor: pointer;
     color: #fff;
-    background-color: #28501C; /* Default green background */
+    background-color: rgba(95, 48, 9, 0.8); /* Default green background */
     padding: 10px;
     border-radius: 50%;
     display: flex;
@@ -141,7 +141,7 @@
 
 /* Change background color to black on hover */
 .prevArrow:hover, .nextArrow:hover {
-    background-color: #000; /* Black background on hover */
+    background-color: #135f33; /* Black background on hover */
 }
 
 /* Optional: Change arrow icon color on hover */
