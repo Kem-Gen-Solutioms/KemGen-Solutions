@@ -8,11 +8,11 @@ const Checkout = () => {
     expiryMonth: "",
     expiryYear: "",
     cvv: "",
-    amountUSD: "1999", // Example amount
+    amountUSD: "1999",
     currency: "USD",
   });
   const [errorMessage, setErrorMessage] = useState("");
-  const [paymentProcessing, setPaymentProcessing] = useState(false); // New state for processing message
+  const [paymentProcessing, setPaymentProcessing] = useState(false);
 
   // Handle input changes for form fields
   const handleInputChange = (e) => {

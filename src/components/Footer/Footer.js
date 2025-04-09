@@ -53,7 +53,7 @@ const Footer = () => {
                     <div className="row">
                         {/* Column 1 */}
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
-                            <p className={styles.logo}>KemGen Cybersecurity</p>
+                            <p className={styles.logo}>KemGen Solutions</p>
                             <p className={styles.text}>
                                 We help small and mid-sized medical practices stay secure, HIPAA-compliant, and resilient to cyber threats. Based in the USA. Built for healthcare.
                             </p>
@@ -87,25 +87,26 @@ const Footer = () => {
                             <p className={styles.text}>Ransomware Protection</p>
                             <p className={styles.text}>Staff Cybersecurity Training</p>
                         </div>
-
                         {/* Column 4 */}
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
                             <p className={styles.head}>Connect With Us</p>
                             <p className={styles.text}>
-                                <FaLinkedin className={styles.icon} /> LinkedIn: @KemGenCyber
+                                <FaLinkedin className={styles.icon} /> LinkedIn: @KemGen Solutions
                             </p>
                             <p className={styles.text}>
-                                <FaTwitter className={styles.icon} /> Twitter: @KemGenSecurity
+                                <FaTwitter className={styles.icon} /> Twitter: @KemGen Solutions
                             </p>
                             <p className={styles.text}>
-                                <FaFacebook className={styles.icon} /> Facebook: @KemGenCyber
+                                <FaFacebook className={styles.icon} /> Facebook: @KemGeen Solutions
                             </p>
                             {/* Contact Section */}
                             <p className={styles.head}>Contact</p>
                             <p className={styles.text}>
                                 Email: info@kemgensecurity.com <br />
                                 Phone: (888) 308-1287 <br />
-                                HQ: Houston, Texas
+                                13101 Preston Rd<br/>
+                                STE 110-50080<br/>
+                                DALLAS,0TX 75240
                             </p>
                         </div>
                     </div>
@@ -114,7 +115,7 @@ const Footer = () => {
 
             {/* Copyright */}
             <div style={{ backgroundColor: '#00B894', textAlign: 'center', padding: '15px 0', color: '#fff' }}>
-                <p className={styles.bottom}>© 2024 KemGen Cybersecurity. All rights reserved.</p>
+                <p className={styles.bottom}>© 2025 KemGen Solutions. All rights reserved.</p>
             </div>
         </>
     );

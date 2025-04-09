@@ -30,8 +30,6 @@ const images = [
     buttonLabel: "SCHEDULE TEST",
     buttonLink: "/ContactUs",
   },
-
-
   {
     src: require("../../assets/livethreat.jpg"),
     alt: "Live USA Threat Map",

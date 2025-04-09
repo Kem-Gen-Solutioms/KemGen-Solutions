@@ -39,8 +39,9 @@ const ContactUsForm = () => {
                 <div className="col-md-4" data-aos='fade-right'>
                     <p className={styles.head}>Address</p>
                     <p className={styles.content}>
-                        13101 PRESTON RD. STE 110-5008<br />
-                        Dallas, TX 75240
+                    13101 Preston Rd<br/>
+                    STE 110-50080<br/>
+                    DALLAS,0TX 75240
                     </p>
                 </div>
 
