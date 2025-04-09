@@ -1,0 +1,135 @@
+.contain {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    color: #1e40af; /* KemGen primary blue */
+    font-weight: 700;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.head {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #1e293b; /* Dark slate */
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.content {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #334155; /* Medium slate */
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.email {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    color: #1e293b; /* Dark slate */
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #1e293b; /* Dark slate */
+    margin-bottom: 8px;
+    display: block;
+}
+
+.input {
+    width: 100%;
+    background-color: #f8fafc; /* Light blue-gray */
+    border-radius: 6px;
+    border: 1px solid #e2e8f0;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    font-family: 'Poppins', sans-serif;
+    transition: border 0.3s ease;
+}
+
+.input:focus {
+    outline: none;
+    border: 1px solid #38bdf8; /* KemGen accent cyan */
+    box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.2);
+}
+
+.msg {
+    height: 150px !important;
+    padding: 15px;
+    resize: vertical;
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 50px;
+    width: 180px;
+    border-radius: 6px;
+    margin-top: 20px;
+    background-color: #1e40af; /* KemGen primary blue */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.btn:hover {
+    background-color: #1e3a8a; /* Darker blue */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(30, 64, 175, 0.3);
+}
+
+.error {
+    color: #dc2626; /* Red for errors */
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+    .heading {
+        font-size: 32px;
+    }
+    .head {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    .content {
+        font-size: 15px;
+    }
+    .email {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .heading {
+        font-size: 28px;
+    }
+    .email {
+        font-size: 22px;
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+    .btn {
+        width: 160px;
+    }
+}
+
+@media screen and (

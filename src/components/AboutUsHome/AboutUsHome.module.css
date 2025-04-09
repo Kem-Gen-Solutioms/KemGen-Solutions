@@ -1,0 +1,145 @@
+.contain {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Consistent spacing between cards */
+    justify-content: center; /* Center cards for better balance */
+    margin-bottom: 50px; /* Add space below the row */
+}
+
+.box {
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    width: 280px; /* Fixed width */
+    min-height: 280px; /* Fixed height */
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #334155; /* Subtle border for depth */
+}
+
+/* Hover Effects */
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(59, 130, 246, 0.15);
+    border-color: #38bdf8; /* Accent border on hover */
+}
+
+.box h3 {
+    font-size: 22px;
+    color: #38bdf8;
+    margin-bottom: 20px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.box h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: #38bdf8; /* Accent underline */
+}
+
+.box p {
+    font-size: 16px;
+    color: #e2e8f0; /* Brighter text for readability */
+    line-height: 1.6;
+    flex-grow: 1; /* Ensures equal height by filling space */
+}
+
+/* Specific Box Backgrounds with Blue, Black, and Red Gradients */
+
+/* HIPAA Compliance Box */
+.hipaa {
+    background: linear-gradient(135deg, #1e3c72, #2a5298, #000000); /* Blue to Black gradient */
+}
+
+/* Penetration Testing Box */
+.penTest {
+    background: linear-gradient(135deg, #d32f2f, #212121, #0d47a1); /* Red to Black to Blue gradient */
+}
+
+/* Ransomware Protection Box */
+.ransomware {
+    background: linear-gradient(135deg, #000000, #b71c1c, #ff5722); /* Black to Red gradient */
+}
+
+/* Asset Protection Box */
+.assetProtection {
+    background: linear-gradient(135deg, #0d47a1, #1976d2, #000000); /* Blue gradient */
+}
+
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1e40af; /* Deep blue */
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 10px;
+}
+
+/* Styling for the CTA Button */
+.ctaButton {
+    display: inline-block;
+    background-color: #92ecdb; /* Light teal background */
+    color: #000000; /* Dark text for contrast */
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 25px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center; /* Center the text inside the button */
+}
+
+.ctaButton:hover {
+    background-color: #4db8b1; /* Darker teal on hover */
+    transform: translateY(-3px); /* Button moves up slightly when hovered */
+}
+
+.ctaButton:active {
+    background-color: #3a9a96; /* Even darker teal when clicked */
+}
+
+/* Responsive adjustments for the button */
+@media (max-width: 768px) {
+    .ctaButton {
+        font-size: 16px; /* Slightly smaller text on smaller screens */
+        padding: 12px 25px; /* Adjust padding for better fitting on smaller screens */
+    }
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .box {
+        width: 240px;
+    }
+}
+
+@media (max-width: 992px) {
+    .row {
+        justify-content: space-evenly;
+    }
+    .box {
+        width: 45%;
+        min-height: 260px;
+    }
+}
+
+@media (max-width: 768px) {
+    .box {
+        width: 100%;
+        max-width: 400px;
+        min-height: 240px;
+    }
+}

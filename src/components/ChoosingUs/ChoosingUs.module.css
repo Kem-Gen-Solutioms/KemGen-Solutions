@@ -1,0 +1,247 @@
+/* General Heading */
+.heading {
+    font-size: 48px;
+    padding-top: 155px;
+    width: 700px;
+    color: #1e40af; /* Primary blue */
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sub_text {
+    font-size: 20px;
+    color: #4b5563; /* Neutral gray */
+    margin-top: 23px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.logo_head {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin-top: 24px;
+}
+
+.logo_text {
+    font-size: 16px;
+    color: white;
+    margin-top: 19px;
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height: 1.6;
+}
+
+.sub {
+    margin-top: 113px;
+    padding-bottom: 125px;
+}
+
+.containerBox {
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+    padding: 15px;
+}
+
+.containerBox:hover {
+    transform: translateY(-10px);
+}
+
+.box {
+    background-color: #1e293b; /* Dark slate */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    height: 100%;
+    border-top: 4px solid #38bdf8; /* Accent cyan */
+}
+
+/* New Styles for Package Cards */
+.packageCard {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin: 15px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.packageCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.packageCard.recommended {
+    border: 2px solid #00B894;
+}
+
+.packageCard .packageTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e40af;
+}
+
+.packageCard .price {
+    font-size: 28px;
+    font-weight: bold;
+    color: #38bdf8;
+    margin-top: 15px;
+}
+
+.packageCard .serviceList {
+    list-style-type: none;
+    padding: 0;
+    font-size: 16px;
+    color: white; /* White color for services */
+    margin-top: 20px;
+}
+
+.packageCard .serviceList li {
+    margin: 8px 0;
+}
+
+/* Updated Choose Package Button */
+.packageCard .chooseButton {
+    background-color: #92ecdb; /* Light teal background */
+    color: black; /* Dark text for contrast */
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.packageCard .chooseButton:hover {
+    background-color: #4db8b1; /* Darker teal on hover */
+    transform: translateY(-3px); /* Button moves up slightly when hovered */
+}
+
+.packageCard .chooseButton:active {
+    background-color: #3a9a96; /* Even darker teal when clicked */
+}
+
+/* Payment Form */
+.paymentForm {
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.paymentForm h3 {
+    font-size: 24px;
+    color: #1e40af;
+    margin-bottom: 20px;
+}
+
+.paymentForm form {
+    display: flex;
+    flex-direction: column;
+}
+
+.paymentForm label {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.paymentForm input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.paymentForm input:focus {
+    border-color: #38bdf8;
+    outline: none;
+}
+
+.paymentForm button {
+    background-color: #38bdf8;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.paymentForm button:hover {
+    background-color: #1e40af;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1000px) {
+    .heading {
+        font-size: 35px;
+        padding-top: 100px;
+        width: 80%;
+    }
+    .sub {
+        padding-bottom: 100px;
+        margin-top: 80px;
+    }
+
+    .packageCard {
+        padding: 18px;
+        margin: 10px 0;
+    }
+
+    .paymentForm {
+        padding: 18px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .heading {
+        font-size: 28px;
+        width: 90%;
+    }
+    .sub {
+        padding-bottom: 80px;
+        margin-top: 70px;
+    }
+
+    .packageCard {
+        padding: 16px;
+    }
+
+    .logo_head {
+        font-size: 20px;
+    }
+
+    .logo_text {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .heading {
+        font-size: 24px;
+        padding-top: 70px;
+    }
+
+    .packageCard {
+        padding: 14px;
+    }
+
+    .logo_head {
+        font-size: 18px;
+    }
+
+    .logo_text {
+        font-size: 14px;
+    }
+}

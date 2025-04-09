@@ -1,0 +1,131 @@
+/* Careers.css */
+
+/* Ensure the page takes the full width */
+.careers-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header Styles */
+  .careers-header {
+    background-color: #333;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .careers-header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .careers-header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Section styles */
+  .company-about, .career-openings, .application-form {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  
+  /* Career openings section */
+  .career-openings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .job-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .job-card {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    width: 30%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .job-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .job-icon {
+    font-size: 40px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+  }
+  
+  .job-location, .job-salary {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .apply-button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+  }
+  
+  .apply-button:hover {
+    background-color: #555;
+  }
+  
+  /* Form Styles */
+  .application-form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .application-form label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .application-form input,
+  .application-form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .application-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .application-form button:hover {
+    background-color: #555;
+  }
+  
