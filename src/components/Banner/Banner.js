@@ -8,28 +8,28 @@ import styles from "./Banner.module.css";
 const images = [
   {
     src: require("../../assets/livethreat.jpg"),
-    alt: "Live USA Threat Map",
+    alt: "Threat_Map",
     text: "Want to know the Targeted states?, Check our live threat Map",
     buttonLabel: "VIEW LIVE THREAT MAP",
     buttonLink: "https://threatmap-chi.vercel.app/"
   },
   {
     src: require("../../assets/10.jpeg"),
-    alt: "HIPAA Compliance",
+    alt: "Image 2",
     text: "HIPAA-Compliant Security for Medical Practices",
     buttonLabel: "LEARN MORE",
-    buttonLink: "/hipaa-compliance"
+    buttonLink: "/hipaa-compliance",
   },
   {
     src: require("../../assets/om0.jpeg"),
-    alt: "Ransomware Protection",
-    text: "Stop Ransomware Before It Stops Your Practice",
+    alt: "Image 2",
+    text: "top Ransomware Before It Stops Your Practice",
     buttonLabel: "GET PROTECTED",
     buttonLink: "/pricing",
   },
   {
     src: require("../../assets/6.jpg"),
-    alt: "Penetration Testing",
+    alt: "Image 2",
     text: "Find Vulnerabilities Before Hackers Do",
     buttonLabel: "SCHEDULE TEST",
     buttonLink: "/ContactUs",
@@ -63,7 +63,7 @@ const Banner = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    beforeChange: () => {}, // Removed setCurrentSlide to avoid the warning
+    beforeChange: () => {},
     prevArrow: <PreviousArrow />,
     nextArrow: <NextArrow />,
   };
