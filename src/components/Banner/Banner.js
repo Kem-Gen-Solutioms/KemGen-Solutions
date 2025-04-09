@@ -14,7 +14,7 @@ const images = [
     buttonLink: "https://threatmap-chi.vercel.app/"
   },
   {
-    src: require("../../assets/subBanner.jpg"),
+    src: require("../../assets/10.jpeg"),
     alt: "HIPAA Compliance",
     text: "HIPAA-Compliant Security for Medical Practices",
     buttonLabel: "LEARN MORE",
@@ -28,7 +28,7 @@ const images = [
     buttonLink: "/pricing",
   },
   {
-    src: require("../../assets/view-red-thread-with-pin-points.jpg"),
+    src: require("../../assets/6.jpg"),
     alt: "Penetration Testing",
     text: "Find Vulnerabilities Before Hackers Do",
     buttonLabel: "SCHEDULE TEST",
