@@ -4,7 +4,6 @@ import ContactUs from '../views/contactUs';
 import IndividualService from "../views/individualService";
 import ProjectDetails from "../views/projectDetails";
 import SMediaService from '../views/sMediaService';
-import Quotation from "../components/Quotations/Quotation";
 import Blog from "../components/Blog/blog";
 import Pricing from "../components/Pricing/pricing";
 import Checkout from "../components/checkout/checkout";
@@ -39,10 +38,6 @@ const routes = [
   {
     component: Blog,
     to: '/blog'
-  },
-  {
-    component: Quotation,
-    to: '/Quotation'
   },
   {
     component: Pricing,
