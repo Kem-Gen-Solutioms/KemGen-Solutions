@@ -28,7 +28,7 @@
     "dotenv": "^16.4.7",
     "emailjs-com": "^3.2.0",
     "express": "^4.21.2",
-    "firebase": "^10.13.2",
+    "firebase": "^11.6.0",
     "flag-icons": "^7.3.2",
     "http-browserify": "^1.7.0",
     "jsonwebtoken": "^9.0.2",
